@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://daries.dev" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://daries.dev https://daries.dev/XSD/rp/1.0/faction.xsd">
+    <import>
+        <faction identifier="imperial">
+            <title language="de">Imperium</title>
+            <title language="en">Sith Empire</title>
+            <game>swtor</game>
+            <icon>empire</icon>
+        </faction>
+
+        <faction identifier="republic">
+            <title language="de">Galaktische Republik</title>
+            <title language="en">Galactic Republic]</title>
+            <game>swtor</game>
+            <icon>republic</icon>
+        </faction>
+    </import>
+</data>

@@ -1,11 +1,11 @@
 <?php
 
-use rp\system\character\event\CharacterAddGeneralTab;
-use rp\system\event\listener\SWTORCharacterAddGeneralTabListener;
+use rp\system\character\event\CharacterAddCreateForm;
+use rp\system\event\listener\SWTORCharacterAddCreateFormListener;
 use wcf\system\event\EventHandler;
 
 return static function (): void {
     $eventHandler = EventHandler::getInstance();
 
-    $eventHandler->register(CharacterAddGeneralTab::class, SWTORCharacterAddGeneralTabListener::class);
+    $eventHandler->register(CharacterAddCreateForm::class, SWTORCharacterAddCreateFormListener::class);
 };
