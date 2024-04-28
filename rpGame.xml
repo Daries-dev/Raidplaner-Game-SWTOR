@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <import>
+        <game identifier="dev.daries.rp.game.swtor">
+            <title language="de">Star Wars: The Old Republic</title>
+            <title language="en">Star Wars: The Old Republic</title>
+        </game>
+    </import>
+</data>
