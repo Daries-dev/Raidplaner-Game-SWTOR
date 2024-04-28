@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<data xmlns="http://daries.dev" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://daries.dev https://daries.dev/XSD/rp/1.0/game.xsd">
     <import>
-        <game identifier="dev.daries.rp.game.swtor">
+        <game identifier="swtor">
             <title language="de">Star Wars: The Old Republic</title>
             <title language="en">Star Wars: The Old Republic</title>
         </game>

@@ -26,5 +26,6 @@
         <instruction type="file" application="rp" />
         <instruction type="file" application="wcf">files_wcf.tar</instruction>
         <instruction type="rpGame" />
+        <instruction type="rpFaction" />
     </instructions>
 </package>

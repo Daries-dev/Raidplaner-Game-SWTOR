@@ -3,8 +3,8 @@
 namespace rp\system\event\listener;
 
 use rp\data\game\GameCache;
-use rp\system\character\event\CharacterAddGeneralTab;
 use wcf\system\form\builder\field\IntegerFormField;
+use wcf\system\form\builder\IFormDocument;
 
 /**
  * Creates the character equipment form.
@@ -13,13 +13,13 @@ use wcf\system\form\builder\field\IntegerFormField;
  * @copyright   2023-2024 Daries.dev
  * @license Free License <https://daries.dev/en/license-for-free-plugins>
  */
-final class SWTORCharacterAddGeneralTabListener
+final class SWTORCharacterAddCreateFormListener
 {
-    public function __invoke(CharacterAddGeneralTab $event)
+    public function __invoke(IFormDocument $event)
     {
-        if (GameCache::getInstance()->getCurrentGame()->identifier !== 'dev.daries.rp.game.swtor')  return;
+        if (GameCache::getInstance()->getCurrentGame()->identifier !== 'swtor')  return;
 
-        $section = $event->characterGeneralTab->getNodeById('characterGeneralSection');
+        $section = $event->getNodeById('characterGeneralSection');
         $section->appendChildren([
             IntegerFormField::create('level')
                 ->label('rp.character.swtor.level')
