@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://daries.dev" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://daries.dev https://daries.dev/XSD/rp/1.0/role.xsd">
+    <import>
+        <role identifier="damagedealer">
+            <title language="de">Schaden</title>
+            <title language="en">Damage</title>
+            <icon>damagedealer</icon>
+            <game>swtor</game>
+        </role>
+        <role identifier="heal">
+            <title language="de">Heiler</title>
+            <title language="en">Heal</title>
+            <icon>heal</icon>
+            <game>swtor</game>
+        </role>
+        <role identifier="tank">
+            <title language="de">Tank</title>
+            <title language="en">Tank</title>
+            <icon>tank</icon>
+            <game>swtor</game>
+        </role>
+    </import>
+</data>
