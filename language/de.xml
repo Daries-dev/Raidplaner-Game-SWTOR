@@ -1,0 +1,4 @@
+        <category name="rp.server">
+            <item name="rp.server.swtor.group.de"><![CDATA[Europäische Server]]></item>
+            <item name="rp.server.swtor.group.us"><![CDATA[US-Server]]></item>
+        </category>

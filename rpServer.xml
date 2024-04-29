@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://daries.dev" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://daries.dev https://daries.dev/XSD/rp/1.0/server.xsd">
+    <import>
+        <server identifier="darthmalgus">
+            <title language="de">Darth Malgus</title>
+            <title language="en">Darth Malgus</title>
+            <type>PvE/PvP</type>
+            <serverGroup>de</serverGroup>
+            <game>swtor</game>
+        </server>
+        <server identifier="sateleshan">
+            <title language="de">Satele Shan</title>
+            <title language="en">Satele Shan</title>
+            <type>PvE/PvP</type>
+            <serverGroup>us</serverGroup>
+            <game>swtor</game>
+        </server>
+        <server identifier="starforge">
+            <title language="de">Star Forge</title>
+            <title language="en">Star Forge</title>
+            <type>PvE/PvP</type>
+            <serverGroup>us</serverGroup>
+            <game>swtor</game>
+        </server>
+        <server identifier="theleviathan">
+            <title language="de">The Leviathan</title>
+            <title language="en">The Leviathan</title>
+            <type>PvE/PvP</type>
+            <serverGroup>de</serverGroup>
+            <game>swtor</game>
+        </server>
+        <server identifier="tulakhord">
+            <title language="de">Tulak Hord</title>
+            <title language="en">Tulak Hord</title>
+            <type>PvE/PvP</type>
+            <serverGroup>de</serverGroup>
+            <game>swtor</game>
+        </server>
+    </import>
+</data>
