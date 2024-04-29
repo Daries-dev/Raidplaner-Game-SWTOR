@@ -1,4 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/6.0/language.xsd"
+    languagecode="en">
+    <import>
+        <category name="rp.character">
+            <item name="rp.character.category.swtor.equipment"><![CDATA[Equipment]]></item>
+            <item name="rp.character.swtor.fightStyleEnable"><![CDATA[Enable fight style]]></item>
+            <item name="rp.character.swtor.fightStyle0"><![CDATA[1st Fight Style]]></item>
+            <item name="rp.character.swtor.fightStyle1"><![CDATA[2nd Fight Style]]></item>
+            <item name="rp.character.swtor.implants"><![CDATA[Implants]]></item>
+            <item name="rp.character.swtor.implants.0"><![CDATA[No Implants]]></item>
+            <item name="rp.character.swtor.implants.1"><![CDATA[1 Implant]]></item>
+            <item name="rp.character.swtor.implants.2"><![CDATA[2 Implants]]></item>
+            <item name="rp.character.swtor.itemLevel"><![CDATA[Item Level]]></item>
+            <item name="rp.character.swtor.level"><![CDATA[Level]]></item>
+            <item name="rp.character.swtor.upgradeBlue"><![CDATA[Augment 73]]></item>
+            <item name="rp.character.swtor.upgradeBlue.description"><![CDATA[Number of blue augments.]]></item>
+            <item name="rp.character.swtor.upgradeGold"><![CDATA[Augment 77]]></item>
+            <item name="rp.character.swtor.upgradeGold.description"><![CDATA[Number of gold augments.]]></item>
+            <item name="rp.character.swtor.upgradePurple"><![CDATA[Augment 74]]></item>
+            <item name="rp.character.swtor.upgradePurple.description"><![CDATA[Number of purple augments.]]></item>
+        </category>
+
         <category name="rp.server">
             <item name="rp.server.swtor.group.de"><![CDATA[European Servers]]></item>
             <item name="rp.server.swtor.group.us"><![CDATA[US Servers]]></item>
         </category>
+    </import>
+</language>
