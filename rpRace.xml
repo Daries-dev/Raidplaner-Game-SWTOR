@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://daries.dev" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://daries.dev https://daries.dev/XSD/rp/1.0/race.xsd">
+    <import>
+        <race identifier="cathar">
+            <title language="de">Cathar</title>
+            <title language="en">Cathar</title>
+            <icon>cathar</icon>
+            <factions>
+                <faction>imperial</faction>
+                <faction>republic</faction>
+            </factions>
+            <game>swtor</game>
+        </race>
+        <race identifier="chiss">
+            <title language="de">Chiss</title>
+            <title language="en">Chiss</title>
+            <icon>chiss</icon>
+            <factions>
+                <faction>imperial</faction>
+                <faction>republic</faction>
+            </factions>
+            <game>swtor</game>
+        </race>
+        <race identifier="cyborg">
+            <title language="de">Cyborg</title>
+            <title language="en">Cyborg</title>
+            <icon>cyborg</icon>
+            <factions>
+                <faction>imperial</faction>
+                <faction>republic</faction>
+            </factions>
+            <game>swtor</game>
+        </race>
+        <race identifier="human">
+            <title language="de">Mensch</title>
+            <title language="en">Human</title>
+            <icon>human</icon>
+            <factions>
+                <faction>imperial</faction>
+                <faction>republic</faction>
+            </factions>
+            <game>swtor</game>
+        </race>
+        <race identifier="miraluka">
+            <title language="de">Miraluka</title>
+            <title language="en">Miraluka</title>
+            <icon>miraluka</icon>
+            <factions>
+                <faction>imperial</faction>
+                <faction>republic</faction>
+            </factions>
+            <game>swtor</game>
+        </race>
+        <race identifier="mirialan">
+            <title language="de">Mirialaner</title>
+            <title language="en">Mirialan</title>
+            <icon>mirialan</icon>
+            <factions>
+                <faction>imperial</faction>
+                <faction>republic</faction>
+            </factions>
+            <game>swtor</game>
+        </race>
+        <race identifier="nautolaner">
+            <title language="de">Nautolaner</title>
+            <title language="en">Nautolaner</title>
+            <icon>nautolaner</icon>
+            <factions>
+                <faction>imperial</faction>
+                <faction>republic</faction>
+            </factions>
+            <game>swtor</game>
+        </race>
+        <race identifier="rattataki">
+            <title language="de">Rattataki</title>
+            <title language="en">Rattataki</title>
+            <icon>rattataki</icon>
+            <factions>
+                <faction>imperial</faction>
+                <faction>republic</faction>
+            </factions>
+            <game>swtor</game>
+        </race>
+        <race identifier="sith">
+            <title language="de">Sith</title>
+            <title language="en">Sith</title>
+            <icon>sith</icon>
+            <factions>
+                <faction>imperial</faction>
+                <faction>republic</faction>
+            </factions>
+            <game>swtor</game>
+        </race>
+        <race identifier="togruta">
+            <title language="de">Togruta</title>
+            <title language="en">Togruta</title>
+            <icon>togruta</icon>
+            <factions>
+                <faction>imperial</faction>
+                <faction>republic</faction>
+            </factions>
+            <game>swtor</game>
+        </race>
+        <race identifier="twilek">
+            <title language="de">Twilek</title>
+            <title language="en">Twilek</title>
+            <icon>twilek</icon>
+            <factions>
+                <faction>imperial</faction>
+                <faction>republic</faction>
+            </factions>
+            <game>swtor</game>
+        </race>
+        <race identifier="zabrak">
+            <title language="de">Zabrak</title>
+            <title language="en">Zabrak</title>
+            <icon>zabrak</icon>
+            <factions>
+                <faction>imperial</faction>
+                <faction>republic</faction>
+            </factions>
+            <game>swtor</game>
+        </race>
+    </import>
+</data>
