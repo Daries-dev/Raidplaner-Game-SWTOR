@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://daries.dev" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://daries.dev https://daries.dev/XSD/rp/1.0/classification.xsd">
+    <import>
+        <classification identifier="operative">
+            <title language="de">Saboteur</title>
+            <title language="en">Operative</title>
+            <races>
+                <race>cathar</race>
+                <race>chiss</race>
+                <race>cyborg</race>
+                <race>human</race>
+                <race>miraluka</race>
+                <race>mirialan</race>
+                <race>rattataki</race>
+                <race>sith</race>
+                <race>togruta</race>
+                <race>twilek</race>
+                <race>zabrak</race>
+            </races>
+            <roles>
+                <role>damagedealer</role>
+                <role>heal</role>
+            </roles>
+            <factions>
+                <faction>imperial</faction>
+                <faction>republic</faction>
+            </factions>
+            <icon>operative</icon>
+            <game>swtor</game>
+        </classification>
+        <classification identifier="sniper">
+            <title language="de">Scharfschütze</title>
+            <title language="en">Sniper</title>
+            <races>
+                <race>cathar</race>
+                <race>chiss</race>
+                <race>cyborg</race>
+                <race>human</race>
+                <race>miraluka</race>
+                <race>mirialan</race>
+                <race>rattataki</race>
+                <race>sith</race>
+                <race>togruta</race>
+                <race>twilek</race>
+                <race>zabrak</race>
+            </races>
+            <roles>
+                <role>damagedealer</role>
+            </roles>
+            <factions>
+                <faction>imperial</faction>
+                <faction>republic</faction>
+            </factions>
+            <icon>sniper</icon>
+            <game>swtor</game>
+        </classification>
+        <classification identifier="sorcerer">
+            <title language="de">Sith-Hexer</title>
+            <title language="en">Sith-Sorcerer</title>
+            <races>
+                <race>cathar</race>
+                <race>chiss</race>
+                <race>cyborg</race>
+                <race>human</race>
+                <race>miraluka</race>
+                <race>mirialan</race>
+                <race>rattataki</race>
+                <race>sith</race>
+                <race>togruta</race>
+                <race>twilek</race>
+                <race>zabrak</race>
+            </races>
+            <roles>
+                <role>damagedealer</role>
+                <role>heal</role>
+            </roles>
+            <factions>
+                <faction>imperial</faction>
+                <faction>republic</faction>
+            </factions>
+            <icon>sorcerer</icon>
+            <game>swtor</game>
+        </classification>
+        <classification identifier="assassin">
+            <title language="de">Sith-Attentäter</title>
+            <title language="en">Sith-Assassin</title>
+            <races>
+                <race>cathar</race>
+                <race>chiss</race>
+                <race>cyborg</race>
+                <race>human</race>
+                <race>miraluka</race>
+                <race>mirialan</race>
+                <race>rattataki</race>
+                <race>sith</race>
+                <race>togruta</race>
+                <race>twilek</race>
+                <race>zabrak</race>
+            </races>
+            <roles>
+                <role>damagedealer</role>
+                <role>tank</role>
+            </roles>
+            <factions>
+                <faction>imperial</faction>
+                <faction>republic</faction>
+            </factions>
+            <icon>assassin</icon>
+            <game>swtor</game>
+        </classification>
+        <classification identifier="juggernaut">
+            <title language="de">Sith-Juggernaut</title>
+            <title language="en">Sith-Juggernaut</title>
+            <races>
+                <race>cathar</race>
+                <race>chiss</race>
+                <race>cyborg</race>
+                <race>human</race>
+                <race>miraluka</race>
+                <race>mirialan</race>
+                <race>rattataki</race>
+                <race>sith</race>
+                <race>togruta</race>
+                <race>twilek</race>
+                <race>zabrak</race>
+            </races>
+            <roles>
+                <role>damagedealer</role>
+                <role>tank</role>
+            </roles>
+            <factions>
+                <faction>imperial</faction>
+                <faction>republic</faction>
+            </factions>
+            <icon>juggernaut</icon>
+            <game>swtor</game>
+        </classification>
+        <classification identifier="marauder">
+            <title language="de">Sith-Marodeur</title>
+            <title language="en">Sith-Marauder</title>
+            <races>
+                <race>cathar</race>
+                <race>chiss</race>
+                <race>cyborg</race>
+                <race>human</race>
+                <race>miraluka</race>
+                <race>mirialan</race>
+                <race>rattataki</race>
+                <race>sith</race>
+                <race>togruta</race>
+                <race>twilek</race>
+                <race>zabrak</race>
+            </races>
+            <roles>
+                <role>damagedealer</role>
+            </roles>
+            <factions>
+                <faction>imperial</faction>
+                <faction>republic</faction>
+            </factions>
+            <icon>marauder</icon>
+            <game>swtor</game>
+        </classification>
+        <classification identifier="mercenary">
+            <title language="de">Söldner</title>
+            <title language="en">Mercenary</title>
+            <races>
+                <race>cathar</race>
+                <race>chiss</race>
+                <race>cyborg</race>
+                <race>human</race>
+                <race>miraluka</race>
+                <race>mirialan</race>
+                <race>rattataki</race>
+                <race>sith</race>
+                <race>togruta</race>
+                <race>twilek</race>
+                <race>zabrak</race>
+            </races>
+            <roles>
+                <role>damagedealer</role>
+                <role>heal</role>
+            </roles>
+            <factions>
+                <faction>imperial</faction>
+                <faction>republic</faction>
+            </factions>
+            <icon>mercenary</icon>
+            <game>swtor</game>
+        </classification>
+        <classification identifier="powertech">
+            <title language="de">Powertech</title>
+            <title language="en">Powertech</title>
+            <races>
+                <race>cathar</race>
+                <race>chiss</race>
+                <race>cyborg</race>
+                <race>human</race>
+                <race>miraluka</race>
+                <race>mirialan</race>
+                <race>rattataki</race>
+                <race>sith</race>
+                <race>togruta</race>
+                <race>twilek</race>
+                <race>zabrak</race>
+            </races>
+            <roles>
+                <role>damagedealer</role>
+                <role>tank</role>
+            </roles>
+            <factions>
+                <faction>imperial</faction>
+                <faction>republic</faction>
+            </factions>
+            <icon>powertech</icon>
+            <game>swtor</game>
+        </classification>
+        <classification identifier="scoundrel">
+            <title language="de">Schurke</title>
+            <title language="en">Scoundrel</title>
+            <races>
+                <race>cathar</race>
+                <race>chiss</race>
+                <race>cyborg</race>
+                <race>human</race>
+                <race>miraluka</race>
+                <race>mirialan</race>
+                <race>rattataki</race>
+                <race>sith</race>
+                <race>togruta</race>
+                <race>twilek</race>
+                <race>zabrak</race>
+            </races>
+            <roles>
+                <role>damagedealer</role>
+                <role>heal</role>
+            </roles>
+            <factions>
+                <faction>imperial</faction>
+                <faction>republic</faction>
+            </factions>
+            <icon>scoundrel</icon>
+            <game>swtor</game>
+        </classification>
+        <classification identifier="gunslinger">
+            <title language="de">Revolverheld</title>
+            <title language="en">Gunslinger</title>
+            <races>
+                <race>cathar</race>
+                <race>chiss</race>
+                <race>cyborg</race>
+                <race>human</race>
+                <race>miraluka</race>
+                <race>mirialan</race>
+                <race>rattataki</race>
+                <race>sith</race>
+                <race>togruta</race>
+                <race>twilek</race>
+                <race>zabrak</race>
+            </races>
+            <roles>
+                <role>damagedealer</role>
+            </roles>
+            <factions>
+                <faction>imperial</faction>
+                <faction>republic</faction>
+            </factions>
+            <icon>gunslinger</icon>
+            <game>swtor</game>
+        </classification>
+        <classification identifier="sage">
+            <title language="de">Jedi-Gelehrter</title>
+            <title language="en">Jedi-Sage</title>
+            <races>
+                <race>cathar</race>
+                <race>chiss</race>
+                <race>cyborg</race>
+                <race>human</race>
+                <race>miraluka</race>
+                <race>mirialan</race>
+                <race>rattataki</race>
+                <race>sith</race>
+                <race>togruta</race>
+                <race>twilek</race>
+                <race>zabrak</race>
+            </races>
+            <roles>
+                <role>damagedealer</role>
+                <role>heal</role>
+            </roles>
+            <factions>
+                <faction>imperial</faction>
+                <faction>republic</faction>
+            </factions>
+            <icon>sage</icon>
+            <game>swtor</game>
+        </classification>
+        <classification identifier="shadow">
+            <title language="de">Jedi-Schatten</title>
+            <title language="en">Jedi-Shadow</title>
+            <races>
+                <race>cathar</race>
+                <race>chiss</race>
+                <race>cyborg</race>
+                <race>human</race>
+                <race>miraluka</race>
+                <race>mirialan</race>
+                <race>rattataki</race>
+                <race>sith</race>
+                <race>togruta</race>
+                <race>twilek</race>
+                <race>zabrak</race>
+            </races>
+            <roles>
+                <role>damagedealer</role>
+                <role>tank</role>
+            </roles>
+            <factions>
+                <faction>imperial</faction>
+                <faction>republic</faction>
+            </factions>
+            <icon>shadow</icon>
+            <game>swtor</game>
+        </classification>
+        <classification identifier="guardian">
+            <title language="de">Jedi-Hüter</title>
+            <title language="en">Jedi-Guardian</title>
+            <races>
+                <race>cathar</race>
+                <race>chiss</race>
+                <race>cyborg</race>
+                <race>human</race>
+                <race>miraluka</race>
+                <race>mirialan</race>
+                <race>rattataki</race>
+                <race>sith</race>
+                <race>togruta</race>
+                <race>twilek</race>
+                <race>zabrak</race>
+            </races>
+            <roles>
+                <role>damagedealer</role>
+                <role>tank</role>
+            </roles>
+            <factions>
+                <faction>imperial</faction>
+                <faction>republic</faction>
+            </factions>
+            <icon>guardian</icon>
+            <game>swtor</game>
+        </classification>
+        <classification identifier="sentinel">
+            <title language="de">Jedi-Wächter</title>
+            <title language="en">Jedi-Sentinel</title>
+            <races>
+                <race>cathar</race>
+                <race>chiss</race>
+                <race>cyborg</race>
+                <race>human</race>
+                <race>miraluka</race>
+                <race>mirialan</race>
+                <race>rattataki</race>
+                <race>sith</race>
+                <race>togruta</race>
+                <race>twilek</race>
+                <race>zabrak</race>
+            </races>
+            <roles>
+                <role>damagedealer</role>
+            </roles>
+            <factions>
+                <faction>imperial</faction>
+                <faction>republic</faction>
+            </factions>
+            <icon>sentinel</icon>
+            <game>swtor</game>
+        </classification>
+        <classification identifier="commando">
+            <title language="de">Kommando</title>
+            <title language="en">Commando</title>
+            <races>
+                <race>cathar</race>
+                <race>chiss</race>
+                <race>cyborg</race>
+                <race>human</race>
+                <race>miraluka</race>
+                <race>mirialan</race>
+                <race>rattataki</race>
+                <race>sith</race>
+                <race>togruta</race>
+                <race>twilek</race>
+                <race>zabrak</race>
+            </races>
+            <roles>
+                <role>damagedealer</role>
+                <role>heal</role>
+            </roles>
+            <factions>
+                <faction>imperial</faction>
+                <faction>republic</faction>
+            </factions>
+            <icon>commando</icon>
+            <game>swtor</game>
+        </classification>
+        <classification identifier="vanguard">
+            <title language="de">Frontkämpfer</title>
+            <title language="en">Vanguard</title>
+            <races>
+                <race>cathar</race>
+                <race>chiss</race>
+                <race>cyborg</race>
+                <race>human</race>
+                <race>miraluka</race>
+                <race>mirialan</race>
+                <race>rattataki</race>
+                <race>sith</race>
+                <race>togruta</race>
+                <race>twilek</race>
+                <race>zabrak</race>
+            </races>
+            <roles>
+                <role>damagedealer</role>
+                <role>tank</role>
+            </roles>
+            <factions>
+                <faction>imperial</faction>
+                <faction>republic</faction>
+            </factions>
+            <icon>vanguard</icon>
+            <game>swtor</game>
+        </classification>
+    </import>
+</data>
