@@ -32,5 +32,6 @@
         <instruction type="rpRole" />
         <instruction type="rpClassification" />
         <instruction type="rpServer" />
+		<instruction type="script" application="rp">acp/install_dev.daries.rp.game.swtor.php</instruction>
     </instructions>
 </package>
