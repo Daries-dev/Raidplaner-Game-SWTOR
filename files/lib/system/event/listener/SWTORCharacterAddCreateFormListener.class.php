@@ -3,8 +3,8 @@
 namespace rp\system\event\listener;
 
 use rp\data\classification\ClassificationCache;
-use rp\data\game\GameCache;
 use rp\data\race\RaceCache;
+use rp\data\role\RoleCache;
 use rp\data\server\ServerCache;
 use rp\system\character\event\CharacterAddCreateForm;
 use wcf\system\form\builder\container\FormContainer;
@@ -33,8 +33,6 @@ final class SWTORCharacterAddCreateFormListener
 
     public function __invoke(CharacterAddCreateForm $event)
     {
-        if (GameCache::getInstance()->getCurrentGame()->identifier !== 'swtor')  return;
-
         $section = $event->form->getNodeById('characterGeneralSection');
         $section->appendChildren([
             IntegerFormField::create('level')
@@ -108,7 +106,7 @@ final class SWTORCharacterAddCreateFormListener
                             SingleSelectionFormField::create('roleID' . $i)
                                 ->label('rp.role.title')
                                 ->required()
-                                ->options(['' => 'wcf.global.noSelection'] + ClassificationCache::getInstance()->getClassifications())
+                                ->options(['' => 'wcf.global.noSelection'] + RoleCache::getInstance()->getRoles())
                                 ->addValidator(new FormFieldValidator('check', function (SingleSelectionFormField $formField) {
                                     $value = $formField->getSaveValue();
 
