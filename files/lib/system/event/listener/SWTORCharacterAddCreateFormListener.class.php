@@ -6,7 +6,7 @@ use rp\data\classification\ClassificationCache;
 use rp\data\race\RaceCache;
 use rp\data\role\RoleCache;
 use rp\data\server\ServerCache;
-use rp\system\character\event\CharacterAddCreateForm;
+use rp\event\character\CharacterAddCreateForm;
 use wcf\system\form\builder\container\FormContainer;
 use wcf\system\form\builder\container\TabFormContainer;
 use wcf\system\form\builder\container\TabTabMenuFormContainer;

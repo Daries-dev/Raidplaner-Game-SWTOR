@@ -1,8 +1,8 @@
 <?php
 
 use rp\data\game\GameCache;
-use rp\system\character\event\CharacterAddCreateForm;
-use rp\system\character\event\CharacterEditData;
+use rp\event\character\CharacterAddCreateForm;
+use rp\event\character\CharacterEditData;
 use rp\system\event\listener\SWTORCharacterAddCreateFormListener;
 use rp\system\event\listener\SWTORCharacterEditDataListener;
 use wcf\system\event\EventHandler;

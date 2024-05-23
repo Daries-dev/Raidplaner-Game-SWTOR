@@ -2,7 +2,7 @@
 
 namespace rp\system\event\listener;
 
-use rp\system\character\event\CharacterEditData;
+use rp\event\character\CharacterEditData;
 use wcf\system\form\builder\field\IFormField;
 
 /**
