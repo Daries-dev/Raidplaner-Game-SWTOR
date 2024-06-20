@@ -3,8 +3,10 @@
 use rp\data\game\GameCache;
 use rp\event\character\CharacterAddCreateForm;
 use rp\event\character\CharacterEditData;
+use rp\event\event\EventCreateForm;
 use rp\system\event\listener\SWTORCharacterAddCreateFormListener;
 use rp\system\event\listener\SWTORCharacterEditDataListener;
+use rp\system\event\listener\SWTOREventCreateFormListener;
 use wcf\system\event\EventHandler;
 
 return static function (): void {
@@ -14,4 +16,5 @@ return static function (): void {
 
     $eventHandler->register(CharacterAddCreateForm::class, SWTORCharacterAddCreateFormListener::class);
     $eventHandler->register(CharacterEditData::class, SWTORCharacterEditDataListener::class);
+    $eventHandler->register(EventCreateForm::class, SWTOREventCreateFormListener::class);
 };
