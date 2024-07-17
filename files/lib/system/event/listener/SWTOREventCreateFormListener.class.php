@@ -33,7 +33,7 @@ final class SWTOREventCreateFormListener
             IntegerFormField::create('requiredItemLevel')
                 ->label('rp.character.swtor.itemLevel')
                 ->minimum(0)
-                ->maximum(340)
+                ->maximum(344)
                 ->value(0),
             SingleSelectionFormField::create('requiredImplants')
                 ->label('rp.character.swtor.implants')

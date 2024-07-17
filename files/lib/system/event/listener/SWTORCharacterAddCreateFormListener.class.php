@@ -39,7 +39,7 @@ final class SWTORCharacterAddCreateFormListener
                 ->label('rp.character.swtor.level')
                 ->required()
                 ->minimum(1)
-                ->maximum(90)
+                ->maximum(80)
                 ->value(0),
             SingleSelectionFormField::create('raceID')
                 ->label('rp.race.title')
@@ -127,7 +127,7 @@ final class SWTORCharacterAddCreateFormListener
                                 ->label('rp.character.swtor.itemLevel')
                                 ->required()
                                 ->minimum(1)
-                                ->maximum(340)
+                                ->maximum(344)
                                 ->value(0),
                             SingleSelectionFormField::create('implants' . $i)
                                 ->label('rp.character.swtor.implants')
