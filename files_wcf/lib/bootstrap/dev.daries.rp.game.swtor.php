@@ -1,9 +1,11 @@
 <?php
 
 use rp\data\game\GameCache;
+use rp\event\character\AvailableCharactersChecking;
 use rp\event\character\CharacterAddCreateForm;
 use rp\event\character\CharacterEditData;
 use rp\event\event\EventCreateForm;
+use rp\system\event\listener\SWTORAvailableCharactersChecking;
 use rp\system\event\listener\SWTORCharacterAddCreateFormListener;
 use rp\system\event\listener\SWTORCharacterEditDataListener;
 use rp\system\event\listener\SWTOREventCreateFormListener;
@@ -14,7 +16,10 @@ return static function (): void {
 
     $eventHandler = EventHandler::getInstance();
 
+    $eventHandler->register(AvailableCharactersChecking::class, SWTORAvailableCharactersChecking::class);
     $eventHandler->register(CharacterAddCreateForm::class, SWTORCharacterAddCreateFormListener::class);
     $eventHandler->register(CharacterEditData::class, SWTORCharacterEditDataListener::class);
     $eventHandler->register(EventCreateForm::class, SWTOREventCreateFormListener::class);
+
+    
 };
