@@ -12,7 +12,6 @@ use wcf\system\form\builder\field\IFormField;
  * @copyright   2023-2024 Daries.dev
  * @license Raidplaner is licensed under Creative Commons Attribution-ShareAlike 4.0 International
  */
-
  final class SWTORCharacterEditDataListener
 {
     public function __invoke(CharacterEditData $event)
