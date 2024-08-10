@@ -26,12 +26,12 @@ final class SWTORAddAttendeesChecking
                 continue;
             }
 
-            $fightStyles = $character->fightStyles ?? [];
+            $fightStyles = $character->fightStyles;
             if (!\array_key_exists($fightStyleID, $fightStyles)) {
                 continue;
             }
 
-            $fightStyle = $fightStyles[$fightStyle];
+            $fightStyle = $fightStyles[$fightStyleID];
 
             $event->setAttendee([
                 'characterID' => $character->characterID,
